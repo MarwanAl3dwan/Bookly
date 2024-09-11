@@ -4,7 +4,7 @@ import 'package:bookly/core/utils/colors_manager.dart';
 import 'package:bookly/core/utils/di.dart';
 import 'package:bookly/features/home/domain/entities/book_entity.dart';
 import 'package:bookly/features/home/domain/usecases/fetch_newest_books_use_case.dart';
-import 'package:bookly/features/home/presentation/cubits/featured_books_cubit%20copy/featured_books_cubit.dart';
+import 'package:bookly/features/home/presentation/cubits/featured_books_cubit/featured_books_cubit.dart';
 import 'package:bookly/features/home/presentation/cubits/newest_books_cubit/newest_books_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -20,6 +20,8 @@ void main() async {
   Bloc.observer = AppBlocObserver();
   runApp(const BooklyApp());
 }
+
+void nonMatchingChars(String str1, String str2) {}
 
 class BooklyApp extends StatelessWidget {
   const BooklyApp({super.key});

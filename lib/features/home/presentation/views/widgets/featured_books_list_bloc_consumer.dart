@@ -3,7 +3,7 @@ import 'package:bookly/features/home/presentation/views/widgets/featured_books_l
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../cubits/featured_books_cubit copy/featured_books_cubit.dart';
+import '../../cubits/featured_books_cubit/featured_books_cubit.dart';
 import 'featured_books_list.dart';
 
 class FeaturedBooksListBlocConsumer extends StatefulWidget {
